@@ -1,0 +1,41 @@
+.introducao-bg{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../img/lojas/loja-leopoldina.jpg) center center / cover no-repeat scroll;
+}
+.introducao{
+    padding: 240px 20px 120px;
+}
+.introducao h1{
+    margin-bottom: 32px;
+    width: 60%;
+}
+.introducao p{
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+@media (max-width: 1200px){
+    .introducao h1{
+        width: 60%;
+    }
+}
+@media (max-width: 800px){
+    .introducao{
+        padding: 80px 20 40px;
+    }
+    .introducao h1{
+        margin-bottom: 16px;
+        width: 70%;
+    }
+    .introducao p{
+        width: 60%;
+    }
+}
+@media (max-width: 600px){
+    .introducao h1{
+        width: 80%;
+    }
+    .introducao p{
+        width: 80%;
+    }
+}
