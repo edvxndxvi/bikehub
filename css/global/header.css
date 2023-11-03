@@ -6,17 +6,17 @@ header{
     align-items: center;
     padding: 20px 0px;
 }
-nav ul{
+header nav ul{
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
 }
-nav a{
+header nav a{
     padding: 16px 0;
     display: inline-block;
     position: relative;
 }
-nav a::after{
+header nav a::after{
     content: "";
     display: block;
     height: 2px;
@@ -26,32 +26,37 @@ nav a::after{
     transition: 0.3s;
     position: absolute;
 }
-nav a:hover:after{
+header nav a:hover:after{
     width: 100%;
 }
 
 @media (max-width: 800px){
-    nav ul{
+    header nav ul{
         gap: 20px;
     }
-    nav a{
+    header nav a{
         background-color: var(--cor-1);
         padding: 12px 16px;
         border-radius: 4px;
     }
-    nav a:hover{
+    header nav a:hover{
         background-color: var(--cor-2);
     }
-    nav a::after{
+    header nav a::after{
         display: none;
     }
 }
 @media (max-width: 600px){
-    nav ul{
+    header nav ul{
         gap: 12px;
     }
-    nav a{
+    header nav a{
         padding: 8px 12px;
         font-size: 14px;
     }
+}
+@media (max-width: 470px){
+    header{
+        justify-content: center;
+     }
 }
