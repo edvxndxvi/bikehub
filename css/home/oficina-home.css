@@ -45,7 +45,7 @@
 }
 @media (max-width: 800px){
     .oficina-bg{
-        box-shadow: initial;
+        box-shadow: inset 0 -60px var(--cor-0);
     }
     .oficina{
         grid-template-columns: 1fr;
@@ -53,9 +53,6 @@
     }
     .oficina-conteudo{
         padding: 60px 0;
-    }
-    .oficina a{
-        margin-bottom: 60px;
     }
 }
 @media (max-width: 600px){
