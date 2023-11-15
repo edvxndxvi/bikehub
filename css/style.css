@@ -16,3 +16,7 @@
 /* SCOOTERS */
 @import "scooters/scooters-lista.css";
 @import "scooters/scooters.css";
+
+/* OFICINA */
+@import "oficina/oficina.css";
+@import "oficina/perguntas.css";
