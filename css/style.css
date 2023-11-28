@@ -16,6 +16,8 @@
 /* SCOOTERS */
 @import "scooters/scooters-lista.css";
 @import "scooters/scooters.css";
+@import "scooters/teste-drive.css";
+
 
 /* OFICINA */
 @import "oficina/oficina.css";
