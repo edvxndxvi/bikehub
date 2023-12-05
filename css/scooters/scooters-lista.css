@@ -38,7 +38,7 @@
     transition: width 0.2s;
 }
 .scooters-lista a:hover h3::before{
-    width: 24px;
+    width: 28px;
 }
 @media (max-width: 800px){
     .scooters-lista{

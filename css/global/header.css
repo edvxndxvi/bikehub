@@ -1,4 +1,8 @@
 header{
+    background: var(--cor-0);
+    width: 100%;
+}
+.header{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;

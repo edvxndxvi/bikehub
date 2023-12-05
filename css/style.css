@@ -7,6 +7,8 @@
 
 /* UTILIDADES */
 @import "utilidades/componentes.css";
+@import "utilidades/formulario.css";
+
 
 /* HOME */
 @import "home/introducao.css";
@@ -22,3 +24,7 @@
 /* OFICINA */
 @import "oficina/oficina.css";
 @import "oficina/perguntas.css";
+
+/* CONTATO */
+@import "contato/contato.css";
+@import "contato/lojas.css";
