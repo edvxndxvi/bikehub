@@ -1,7 +1,8 @@
-.scooters-bg:nth-child(odd){
+.scooters-bg{
     background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
 }
 .scooters{
+    background: url(../../img/dec/top-right.svg) no-repeat top 60px right 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
