@@ -1,6 +1,6 @@
 header{
     background: var(--cor-0);
-    width: 100%;
+    width: 100% ;
 }
 .header{
     display: flex;
@@ -30,7 +30,8 @@ header nav a::after{
     transition: 0.3s;
     position: absolute;
 }
-header nav a:hover:after{
+header nav a:hover:after, 
+header nav a.ativo::after{
     width: 100%;
 }
 
